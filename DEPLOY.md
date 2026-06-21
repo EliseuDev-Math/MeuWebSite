@@ -23,6 +23,8 @@ Vá em [github.com/new](https://github.com/new) e crie um repositório.
 
 ### 2. Faça push do código
 
+**Importante**: Certifique-se de incluir o `package-lock.json` no commit!
+
 ```bash
 git init
 git add .
