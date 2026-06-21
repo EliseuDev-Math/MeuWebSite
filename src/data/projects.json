@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Nome do Projeto 1",
+    "title": "Sistema de Gerenciamento e Carregamento de Carros Elétricos",
     "description": "Breve descrição do projeto — o que ele faz e por que foi criado.",
     "longDescription": "Descrição mais detalhada do projeto. Aqui você pode falar sobre a motivação, os desafios enfrentados, as decisões de arquitetura e o que aprendeu durante o desenvolvimento.",
     "techStack": "Next.js,TypeScript,PostgreSQL,Tailwind CSS",
@@ -9,38 +9,5 @@
     "liveUrl": "",
     "featured": true,
     "sortOrder": 1
-  },
-  {
-    "id": 2,
-    "title": "Nome do Projeto 2",
-    "description": "Outra descrição breve — ferramenta/app/lib que você construiu.",
-    "longDescription": "Detalhes sobre o segundo projeto. Conte a história por trás dele — qual problema resolve, como funciona internamente, e quais foram os resultados.",
-    "techStack": "Python,FastAPI,React,Docker",
-    "repoUrl": "https://github.com/seuusuario/projeto-2",
-    "liveUrl": "https://projeto2.example.com",
-    "featured": true,
-    "sortOrder": 2
-  },
-  {
-    "id": 3,
-    "title": "Nome do Projeto 3",
-    "description": "Mais um projeto interessante que você desenvolveu.",
-    "longDescription": "Descrição completa do terceiro projeto. Pode ser uma CLI, uma lib, um bot, um app mobile — qualquer coisa que demonstre suas habilidades.",
-    "techStack": "Rust,WebAssembly,JavaScript",
-    "repoUrl": "https://github.com/seuusuario/projeto-3",
-    "liveUrl": "",
-    "featured": true,
-    "sortOrder": 3
-  },
-  {
-    "id": 4,
-    "title": "Nome do Projeto 4",
-    "description": "Um projeto de estudo ou contribuição open source.",
-    "longDescription": "Descrição do quarto projeto. Contribuições open source também contam! Fale sobre pull requests, issues resolvidas ou features que implementou.",
-    "techStack": "Go,gRPC,Redis",
-    "repoUrl": "https://github.com/seuusuario/projeto-4",
-    "liveUrl": "",
-    "featured": false,
-    "sortOrder": 4
   }
 ]

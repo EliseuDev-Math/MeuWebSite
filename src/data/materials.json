@@ -1,58 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Lista de Teoria dos Números — Nível 1",
-    "description": "Exercícios introdutórios sobre divisibilidade, MDC, MMC e congruências. Ideal para quem está começando.",
-    "category": "Teoria dos Números",
+    "title": "Detonando as Integrais - Básico",
+    "description": "Primeiro dos três materiais que cobrem toda (ou quase toda) a parte de cálculo de integrais. Ideal para quem está começando e quer se preparar para a OBM Nível U ou CEEL.",
+    "category": "Cálculo",
     "level": "Iniciante",
-    "fileUrl": ""
-  },
-  {
-    "id": 2,
-    "title": "Lista de Teoria dos Números — Nível 2",
-    "description": "Problemas intermediários envolvendo o Pequeno Teorema de Fermat, função de Euler e equações diofantinas.",
-    "category": "Teoria dos Números",
-    "level": "Intermediário",
-    "fileUrl": ""
-  },
-  {
-    "id": 3,
-    "title": "Combinatória — Princípios de Contagem",
-    "description": "Apostila com teoria e exercícios sobre princípio aditivo, multiplicativo, permutações e combinações.",
-    "category": "Combinatória",
-    "level": "Iniciante",
-    "fileUrl": ""
-  },
-  {
-    "id": 4,
-    "title": "Combinatória — Princípio de Inclusão-Exclusão",
-    "description": "Material avançado sobre PIE com aplicações em problemas olímpicos clássicos.",
-    "category": "Combinatória",
-    "level": "Avançado",
-    "fileUrl": ""
-  },
-  {
-    "id": 5,
-    "title": "Geometria — Semelhança e Potência de Ponto",
-    "description": "Teoria e problemas sobre semelhança de triângulos, potência de ponto e eixo radical.",
-    "category": "Geometria",
-    "level": "Intermediário",
-    "fileUrl": ""
-  },
-  {
-    "id": 6,
-    "title": "Álgebra — Desigualdades Clássicas",
-    "description": "AM-GM, Cauchy-Schwarz, Jensen e outras desigualdades essenciais com demonstrações e exercícios.",
-    "category": "Álgebra",
-    "level": "Intermediário",
-    "fileUrl": ""
-  },
-  {
-    "id": 7,
-    "title": "Soluções — OBM 2023 (Fase 3)",
-    "description": "Soluções comentadas de todos os problemas da terceira fase da OBM 2023.",
-    "category": "Soluções",
-    "level": "Avançado",
     "fileUrl": ""
   }
 ]
