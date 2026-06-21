@@ -6,7 +6,7 @@ const allProjects = (projectsData as Project[]).sort(
 );
 
 export const metadata = {
-  title: "Portfólio — Seu Nome",
+  title: "Portfólio — ꓱLIΣꓱЦ ꓯ",
   description: "Projetos de programação e desenvolvimento.",
 };
 

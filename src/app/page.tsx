@@ -29,7 +29,7 @@ export default function HomePage() {
               Bem-vindo ao meu espaço
             </p>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-text-primary md:text-6xl">
-              ꓱLIΣꓱЦ ꓯ.
+              ꓱLIΣꓱЦ ꓯ
               <span className="text-accent">.</span>
             </h1>
             <p className="animation-delay-100 animate-fade-up mt-6 max-w-2xl text-lg leading-relaxed text-text-secondary">

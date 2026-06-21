@@ -5,7 +5,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Seu Nome — Blog, Portfólio & Matemática",
+  title: "ꓱLIΣꓱЦ ꓯ — Blog, Portfólio & Matemática",
   description:
     "Blog pessoal, portfólio de programação e materiais de matemática olímpica.",
 };

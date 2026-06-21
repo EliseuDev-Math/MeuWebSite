@@ -18,7 +18,7 @@ const allTags = Array.from(
 );
 
 export const metadata = {
-  title: "Blog — Seu Nome",
+  title: "Blog — ꓱLIΣꓱЦ ꓯ",
   description: "Artigos sobre matemática, programação e mais.",
 };
 

@@ -5,7 +5,7 @@ import { withBasePath } from "@/lib/base-path";
 const p = profileData as Profile;
 
 export const metadata = {
-  title: "Sobre — Seu Nome",
+  title: "Sobre — ꓱLIΣꓱЦ ꓯ",
   description: "Quem sou eu, formação, e o que estou fazendo agora.",
 };
 

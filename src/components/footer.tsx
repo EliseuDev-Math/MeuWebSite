@@ -9,11 +9,11 @@ export function Footer() {
           <div>
             <p className="text-sm font-semibold text-text-primary">
               <span className="text-accent">{"{"}</span>
-              &nbsp;seu.nome&nbsp;
+              &nbsp;ꓱLIΣꓱЦ ꓯ.&nbsp;
               <span className="text-accent">{"}"}</span>
             </p>
             <p className="mt-2 text-sm text-text-muted">
-              Matemática, programação e pensamento.
+              Matemática, programação e física.
             </p>
           </div>
 

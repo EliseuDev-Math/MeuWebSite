@@ -12,7 +12,7 @@ for (const mat of allMaterials) {
 const categories = Object.keys(grouped);
 
 export const metadata = {
-  title: "Materiais de Matemática Olímpica — Seu Nome",
+  title: "Materiais de Matemática Olímpica — ꓱLIΣꓱЦ ꓯ",
   description: "PDFs, listas e materiais de estudo para olimpíadas de matemática.",
 };
 
