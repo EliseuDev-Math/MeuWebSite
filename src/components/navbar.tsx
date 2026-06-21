@@ -24,7 +24,7 @@ export function Navbar() {
           className="text-lg font-bold tracking-tight text-text-primary transition-colors hover:text-accent"
         >
           <span className="text-accent">{"{"}</span>
-          &nbsp;seu.nome&nbsp;
+          &nbsp;ꓱLIΣꓱЦ ꓯ&nbsp;
           <span className="text-accent">{"}"}</span>
         </Link>
 
