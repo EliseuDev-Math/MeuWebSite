@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Por que estudar Matemática Olímpica?",
+    "slug": "por-que-estudar-matematica-olimpica",
+    "excerpt": "Uma reflexão sobre como as olimpíadas de matemática desenvolvem o raciocínio lógico, a criatividade e a resiliência — habilidades que transcendem a matemática.",
+    "content": "## O início de tudo\n\nQuando comecei a estudar matemática olímpica, não imaginava o impacto que isso teria na minha vida. Não se tratava apenas de resolver problemas difíceis — era sobre aprender a **pensar de forma diferente**.\n\n## O que as olimpíadas ensinam\n\nAs olimpíadas de matemática ensinam muito mais do que fórmulas e teoremas:\n\n- **Pensamento criativo**: cada problema é único e exige uma abordagem original\n- **Perseverança**: nem todo problema se resolve na primeira tentativa\n- **Rigor lógico**: uma demonstração precisa ser impecável\n- **Humildade**: sempre há algo novo para aprender\n\n## Além da competição\n\nO maior valor das olimpíadas não está nas medalhas, mas nas habilidades que desenvolvemos ao longo do caminho. A capacidade de abstrair, generalizar e encontrar padrões é útil em qualquer área — da programação à ciência, da engenharia à filosofia.\n\n> \"A matemática é a rainha das ciências e a teoria dos números é a rainha da matemática.\" — Carl Friedrich Gauss\n\n## Conclusão\n\nSe você está pensando em começar, meu conselho é simples: **comece**. Não importa o nível — o importante é a jornada, não o destino.\n\nNos próximos artigos, vou compartilhar dicas de estudo, materiais e reflexões sobre tópicos específicos. Fique ligado!",
+    "tags": "matemática,olimpíadas,reflexão",
+    "published": true,
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Introdução à Teoria dos Números para Olimpíadas",
+    "slug": "introducao-teoria-dos-numeros",
+    "excerpt": "Um guia introdutório sobre divisibilidade, congruências e o Pequeno Teorema de Fermat — ferramentas essenciais para olimpíadas de matemática.",
+    "content": "## Divisibilidade\n\nA base de tudo em teoria dos números começa com a divisibilidade. Dizemos que `a` divide `b` (escrevemos `a | b`) quando existe um inteiro `k` tal que `b = a · k`.\n\n### Propriedades fundamentais\n\n1. Se `a | b` e `a | c`, então `a | (b + c)`\n2. Se `a | b` e `a | c`, então `a | (b - c)`\n3. Se `a | b` e `b | c`, então `a | c` (transitividade)\n\n## Congruências\n\nA notação de congruências, introduzida por Gauss, simplifica enormemente o trabalho com restos:\n\n`a ≡ b (mod n)` significa que `n | (a - b)`\n\n### Exemplo prático\n\nQual o resto da divisão de `2^100` por `7`?\n\nObserve o padrão:\n- `2^1 ≡ 2 (mod 7)`\n- `2^2 ≡ 4 (mod 7)`\n- `2^3 ≡ 1 (mod 7)`\n- `2^4 ≡ 2 (mod 7)` — o ciclo se repete!\n\nComo `100 = 33 × 3 + 1`, temos `2^100 ≡ 2^1 ≡ 2 (mod 7)`.\n\n## Pequeno Teorema de Fermat\n\nSe `p` é primo e `mdc(a, p) = 1`, então:\n\n`a^(p-1) ≡ 1 (mod p)`\n\nEste resultado é incrivelmente poderoso para calcular restos de potências grandes.\n\n## Próximos passos\n\nNos próximos artigos, abordaremos:\n- Função totiente de Euler\n- Teorema Chinês do Resto\n- Equações Diofantinas",
+    "tags": "matemática,teoria dos números,tutorial",
+    "published": true,
+    "createdAt": "2025-02-10"
+  },
+  {
+    "id": 3,
+    "title": "Clean Code: Princípios que uso no dia a dia",
+    "slug": "clean-code-principios",
+    "excerpt": "Lições práticas sobre código limpo que aplico nos meus projetos — naming, funções, abstrações e a arte de escrever código legível.",
+    "content": "## Código é comunicação\n\nO código que escrevemos é lido muito mais vezes do que é escrito. Por isso, clareza deve ser prioridade.\n\n### Nomes significativos\n\n```typescript\n// ❌ Ruim\nconst d = new Date();\nconst fn = (x: number) => x * 2;\n\n// ✅ Bom\nconst currentDate = new Date();\nconst doubleValue = (value: number) => value * 2;\n```\n\n## Funções pequenas e focadas\n\nUma função deve fazer **uma coisa** e fazer bem. Se você precisa usar \"e\" para descrever o que ela faz, provavelmente deveria ser duas funções.\n\n## O princípio DRY (não se repita)\n\nRepetição é o inimigo da manutenção. Mas cuidado: abstração prematura é pior que repetição. A regra dos três é um bom guia — repita uma vez, tudo bem; repita duas vezes, considere abstrair.\n\n## Comentários\n\n> \"Bom código é sua melhor documentação.\" — Steve McConnell\n\nPrefira código auto-explicativo a comentários. Mas quando o **porquê** não é óbvio, comente.\n\n## Conclusão\n\nClean code não é sobre perfeição — é sobre **respeito**: com quem vai ler seu código (incluindo seu eu do futuro).",
+    "tags": "programação,clean code,boas práticas",
+    "published": true,
+    "createdAt": "2025-03-05"
+  },
+  {
+    "id": 4,
+    "title": "Minha jornada: das olimpíadas ao código",
+    "slug": "minha-jornada-olimpiadas-ao-codigo",
+    "excerpt": "Como o pensamento algorítmico das olimpíadas de matemática me levou naturalmente à programação e ao desenvolvimento de software.",
+    "content": "## O começo\n\nTudo começou com um convite para participar de uma olimpíada de matemática na escola. Eu tinha [sua idade] anos e achava que matemática era \"fazer conta\". Como eu estava errado.\n\n## A descoberta\n\nOs problemas olímpicos me mostraram uma matemática completamente diferente: elegante, criativa, desafiadora. Não era sobre decorar fórmulas — era sobre **pensar**.\n\n## A transição\n\nA transição para a programação aconteceu naturalmente. Quando você passa anos resolvendo problemas, estruturando argumentos lógicos e buscando soluções elegantes, programar se torna uma extensão natural desse processo.\n\n## O que aprendi\n\n1. **Decomposição**: quebrar problemas grandes em partes menores\n2. **Padrões**: reconhecer estruturas que se repetem\n3. **Abstração**: ignorar detalhes irrelevantes\n4. **Algoritmos**: criar procedimentos sistemáticos\n\nEssas habilidades são o núcleo tanto da matemática olímpica quanto da ciência da computação.\n\n## Hoje\n\nHoje, uso essas habilidades para construir software, resolver problemas complexos e continuar aprendendo. A jornada nunca acaba — e é isso que a torna fascinante.",
+    "tags": "pessoal,matemática,programação",
+    "published": true,
+    "createdAt": "2025-04-01"
+  }
+]
