@@ -44,13 +44,13 @@ export function Footer() {
               Contato
             </p>
             <a
-              href="mailto:seu@email.com"
+              href="mailto:eliseualexandre496@gmail.com"
               className="text-sm text-text-secondary transition-colors hover:text-accent"
             >
-              seu@email.com
+              eliseualexandre496@gmail.com
             </a>
             <a
-              href="https://github.com/seuusuario"
+              href="https://github.com/EliseuDev-Math"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-text-secondary transition-colors hover:text-accent"
@@ -70,7 +70,7 @@ export function Footer() {
 
         <div className="glow-line mt-8" />
         <p className="mt-6 text-center text-xs text-text-muted">
-          © {new Date().getFullYear()} · Feito com dedicação
+          © {new Date().getFullYear()} · Tu manja de geometria diferencial?
         </p>
       </div>
     </footer>
