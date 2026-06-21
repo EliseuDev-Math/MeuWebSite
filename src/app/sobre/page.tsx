@@ -1,5 +1,6 @@
 import profileData from "@/data/profile.json";
 import type { Profile } from "@/data/types";
+import { withBasePath } from "@/lib/base-path";
 
 const p = profileData as Profile;
 
@@ -31,7 +32,7 @@ export default function SobrePage() {
             <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-2xl border border-border-subtle bg-bg-card text-4xl">
               {p.avatarUrl ? (
                 <img
-                  src={p.avatarUrl}
+                  src={withBasePath(p.avatarUrl)}
                   alt={p.name}
                   className="h-full w-full rounded-2xl object-cover"
                 />

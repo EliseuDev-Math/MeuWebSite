@@ -3,6 +3,7 @@ import postsData from "@/data/posts.json";
 import projectsData from "@/data/projects.json";
 import materialsData from "@/data/materials.json";
 import type { Post, Project, Material } from "@/data/types";
+import { withBasePath } from "@/lib/base-path";
 
 const allPosts = (postsData as Post[]).filter((p) => p.published);
 const latestPosts = allPosts
@@ -253,7 +254,7 @@ export default function HomePage() {
                 </p>
                 {mat.fileUrl && (
                   <a
-                    href={mat.fileUrl}
+                    href={withBasePath(mat.fileUrl)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-accent transition-colors hover:text-accent-light"

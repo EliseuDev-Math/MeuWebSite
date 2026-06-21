@@ -1,5 +1,6 @@
 import materialsData from "@/data/materials.json";
 import type { Material } from "@/data/types";
+import { withBasePath } from "@/lib/base-path";
 
 const allMaterials = materialsData as Material[];
 
@@ -93,7 +94,7 @@ export default function MateriaisPage() {
                       </p>
                       {mat.fileUrl ? (
                         <a
-                          href={mat.fileUrl}
+                          href={withBasePath(mat.fileUrl)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="mt-4 inline-flex items-center gap-1.5 rounded-lg bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
